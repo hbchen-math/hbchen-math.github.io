@@ -1,0 +1,158 @@
+/* css for desktop.css */
+
+body {
+	background-color:#fffdfa;
+
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+#container {
+	width: 70%;
+	margin: auto;
+	max-width: 1300px;
+	
+}
+
+#content {
+	clear:both;
+	margin-top: 1em;
+}
+
+#footer {
+	clear: both;
+	margin-top: 100px;
+}
+
+#header {
+	padding-left:0px;
+	margin-top: 2em;
+}
+
+#navigation{
+	padding-left:7%;
+}
+
+/* column sizes */
+.column1 {
+	float:left;
+	width: 60%;
+	margin-right: 6%;
+}
+
+.column2 {
+	float:left;
+	width: 32%;
+}
+
+.research {
+	float:left;
+	width: 100%;
+	margin-right: 6%;
+}
+
+
+/* header styles */
+
+h1 {
+	letter-spacing: 1px;
+	font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+	font-size: 1.7em;
+	color:#4f8a8b;
+
+	
+}
+
+h3 {
+	color: #4f8a8b; /* #57b7ba */
+	font-size: 1.5em;
+	font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+	text-align: left;
+	/* font-style: italic; */
+	letter-spacing: 0.5px;
+}
+
+h5 {
+	color: #4f8a8b;
+	font-size: 0.8em;
+	font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+	
+	
+}
+
+/* basic text styles */
+
+p {
+	color: #222831;
+	font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	text-align: left;
+
+}
+
+ul, li{
+	font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+	color: #435775;
+	text-align: left;
+	font-size: 1em;
+}
+
+img {
+	width: 100%;
+	margin-bottom: -10px;
+}
+
+ul {
+	
+	list-style: circle;
+	margin-left:0;
+	padding-left:0;
+}
+
+li {
+	
+	margin-right: 2%;
+	margin-top: 10px;
+	
+}
+
+
+/* link states */
+
+a:link, a:visited {
+	color: #6da5a6;
+	text-decoration: none;
+}
+
+a.current:link, a.current:visited {
+	color: #edb20e;
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	color:#F5D467;
+	text-decoration: none;
+	
+}
+
+a:active {
+	color:#edb20e;
+	text-decoration: none;
+	
+
+}
+
+
+h6 {
+	color: #B5B0B1;
+	font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+	font-size: .85em;
+	line-height: 1.5em;
+	text-align: center;
+	font-weight: lighter;
+	padding-right:50px;
+	padding-left:50px
+}
